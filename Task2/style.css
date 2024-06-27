@@ -1,0 +1,65 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff; /* Light Azure */
+}
+#wrapper h1 {
+    color: #ff6347; /* Tomato */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#wrapper h2 {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color: #4682b4; /* Steel Blue */
+    letter-spacing: 1px;
+}
+input {
+    border-radius: 5px; 
+    border: 2px solid #32cd32; /* Lime Green */
+    margin-top: 30px; 
+    height: 2.5em; 
+    width: 250px; 
+    padding-left: 10px;
+}
+input:active {
+    border: none; 
+}
+#wrapper { 
+    max-height: 500px; 
+    max-width: 400px; 
+    min-height: 400px; 
+    margin: 40px auto; 
+    background-color: #ffffff; /* White */
+    border-radius: 10px; 
+    padding: 30px;
+}
+button { 
+    margin-top: 20px; 
+    background-color: #ffeb3b; /* Light Yellow */
+    border-radius: 4px; 
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px; 
+    letter-spacing: 1px; 
+    border: none; 
+    color: #000000; /* Black */
+}
+button:hover { 
+    cursor: pointer; 
+}
+#todoList {
+    color: #000000; /* Black */
+    font-size: 28px; 
+    margin-top: 10px; 
+}
+#todoList p { 
+    margin: 10px 0px; 
+}
+#todoList p:hover { 
+    cursor: pointer; 
+}
